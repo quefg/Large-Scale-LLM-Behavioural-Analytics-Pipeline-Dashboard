@@ -3,7 +3,7 @@
 ## Project Overview
 This project is an interactive analytics dashboard built with Python, Streamlit, and Plotly. It is designed to visualize and analyze complex behavioral patterns and stance evolution within large-scale datasets.
 
-The application processes structured CSV collections, providing a powerful comparative interface to simulate and analyze demographic subgroups (Age, Gender, Region, Education). It features advanced visualization capabilities to track how stances evolve over time (Sycophancy Analysis) and identify key behavioral trends.
+The application processes structured CSV collections, providing a powerful comparative interface to simulate and analyze demographic subgroups (Age, Gender, Region, Education). It features advanced visualization capabilities to track how stances evolve over multiple rounds of conversations (Sycophancy Analysis) and identify key behavioral trends.
 
 ## Skills & Technical Showcase
 
@@ -17,7 +17,6 @@ This project demonstrates core competencies in data engineering, full-stack anal
 ### 2. Data Cleaning & Pipeline Management (Pandas & NumPy)
 *   **Robust Data Ingestion**: Engineered the `load_data_raw` pipeline to systematically handle diverse CSV datasets, automatically correcting encoding issues, stripping whitespace, and managing varying column structures.
 *   **Advanced Feature Engineering**:
-    *   Developed algorithms to calculate complex metrics such as **Sycophancy Scores** (0-3 scale) based on sequential pattern matching (e.g., Early-only vs. Sustain).
     *   Implemented logic to normalize inconsistent categorical values (e.g., stance labels) across heterogeneous data sources.
     *   Utilized Pandas for high-performance data manipulation, including pivoting, grouping, and applying complex lambda functions for feature extraction.
 *   **Data integrity**: Implemented automated handling of missing values (`NaN` processing) and type enforcement for critical analysis columns.
@@ -36,20 +35,4 @@ This project demonstrates core competencies in data engineering, full-stack anal
 ## Dictionary & Translation Layer
 *   Includes a robust dictionary-based translation system (`CN_TO_EN`) to dynamically map raw data values to English presentation layers, ensuring the dashboard is accessible to a global audience without altering the underlying raw data.
 
-## How to Run
-
-1.  **Install Dependencies**:
-    ```bash
-    pip install streamlit pandas plotly numpy
-    ```
-
-2.  **Launch the Dashboard**:
-    ```bash
-    streamlit run app_dynamic.py
-    ```
-
-3.  **Navigate**:
-    *   **Upload/Select Data**: Choose the dataset files from the sidebar.
-    *   **Filter**: Apply demographic or repetition filters to slice the data.
-    *   **Analyze**: Switch between Bar Charts, Sankey Flows, and Heatmaps to explore the data.
 
