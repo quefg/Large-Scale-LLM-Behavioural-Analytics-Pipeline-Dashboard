@@ -1,7 +1,11 @@
 # Large-Scale Behavioural Analytics Dashboard
 
+> **⚠️ Note on Source Code Availability:**
+> Due to the confidential nature of this ongoing research project, the full source code cannot be publicly released at this time. However, the demo below illustrates the web application's functionality and pipeline.
+
+### Project Demo
 <p align="center">
-  <img src="Large-Scale-LLM-Behavioural-Analytics-Pipeline-Dashboard_Demo.gif" alt="Demo">
+  <img src="Demo.gif" alt="Project Demo" width="100%">
 </p>
 
 ## Project Overview
