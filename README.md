@@ -1,5 +1,9 @@
 # Large-Scale Behavioural Analytics Dashboard
 
+<p align="center">
+  <img src="Large-Scale-LLM-Behavioural-Analytics-Pipeline-Dashboard_Demo.gif" alt="Demo">
+</p>
+
 ## Project Overview
 This project is an interactive analytics dashboard built with Python, Streamlit, and Plotly. It is designed to visualize and analyze complex behavioral patterns and stance evolution within large-scale datasets.
 
